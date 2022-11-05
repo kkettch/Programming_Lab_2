@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/itmo.share/Documents/Programming_Lab_2</OriginalElement>
+  <nodes>
+    <node x="114.46059782608688" y="0.0">com.company.Scald</node>
+    <node x="274.7105978260869" y="208.0">pokemons.Marill</node>
+    <node x="134.95923913043475" y="293.0">pokemons.Azumarill</node>
+    <node x="1036.0190217391305" y="103.0">com.company.RazorLeaf</node>
+    <node x="1439.3342391304348" y="293.0">pokemons.Gourgeist</node>
+    <node x="599.0190217391304" y="376.0">com.company.Main</node>
+    <node x="130.71059782608688" y="208.0">com.company.Bubble</node>
+    <node x="718.7690217391304" y="293.0">pokemons.Chatot</node>
+    <node x="600.0190217391304" y="208.0">com.company.DoubleTeam</node>
+    <node x="1207.0190217391305" y="103.0">com.company.ChargeBeam</node>
+    <node x="792.0190217391304" y="208.0">com.company.HyperVoice</node>
+    <node x="344.6440217391304" y="103.0">pokemons.Azurill</node>
+    <node x="46.559782608695514" y="103.0">com.company.Refresh</node>
+    <node x="975.0190217391304" y="208.0">com.company.Facade</node>
+    <node x="441.0190217391304" y="208.0">com.company.Swagger</node>
+    <node x="1401.0190217391305" y="103.0">com.company.SeedBomb</node>
+    <node x="1668.0190217391305" y="208.0">pokemons.Pumpkaboo</node>
+    <node x="1490.0190217391305" y="208.0">com.company.FocusBlast</node>
+    <node x="246.46059782608688" y="0.0">com.company.BubbleBeam</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pokemons.Marill" target="pokemons.Azurill" relationship="GENERALIZATION">
+      <point x="27.75" y="-15.5" />
+      <point x="357.9605978260869" y="186.0" />
+      <point x="374.1440217391304" y="186.0" />
+      <point x="-29.5" y="15.5" />
+    </edge>
+    <edge source="pokemons.Pumpkaboo" target="com.company.ChargeBeam" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="1750.5190217391305" y="186.0" />
+      <point x="1299.2690217391305" y="186.0" />
+      <point x="1299.2690217391305" y="156.0" />
+      <point x="1294.0190217391305" y="156.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pokemons.Gourgeist" target="com.company.RazorLeaf" relationship="CREATE">
+      <point x="-37.0" y="-15.5" />
+      <point x="1476.3342391304348" y="271.0" />
+      <point x="1386.7690217391305" y="271.0" />
+      <point x="1386.7690217391305" y="261.0" />
+      <point x="1111.5190217391305" y="261.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pokemons.Azumarill" target="com.company.Bubble" relationship="CREATE">
+      <point x="-35.75" y="-15.5" />
+      <point x="170.70923913043475" y="271.0" />
+      <point x="116.51902173913038" y="271.0" />
+      <point x="116.51902173913038" y="261.0" />
+      <point x="192.71059782608688" y="261.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pokemons.Marill" target="com.company.Refresh" relationship="CREATE">
+      <point x="-27.75" y="-15.5" />
+      <point x="302.4605978260869" y="186.0" />
+      <point x="285.87499999999994" y="186.0" />
+      <point x="285.87499999999994" y="176.0" />
+      <point x="112.05978260869551" y="176.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pokemons.Chatot" target="com.company.Swagger" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="779.7690217391304" y="271.0" />
+      <point x="510.5190217391304" y="271.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pokemons.Pumpkaboo" target="com.company.RazorLeaf" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="1750.5190217391305" y="186.0" />
+      <point x="1299.2690217391305" y="186.0" />
+      <point x="1299.2690217391305" y="166.0" />
+      <point x="1111.5190217391305" y="166.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pokemons.Gourgeist" target="com.company.FocusBlast" relationship="CREATE">
+      <point x="-37.0" y="-15.5" />
+      <point x="1476.3342391304348" y="271.0" />
+      <point x="1386.7690217391305" y="271.0" />
+      <point x="1386.7690217391305" y="261.0" />
+      <point x="1569.0190217391305" y="261.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pokemons.Azurill" target="com.company.BubbleBeam" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="403.6440217391304" y="52.0" />
+      <point x="331.9605978260869" y="52.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pokemons.Azumarill" target="pokemons.Marill" relationship="GENERALIZATION">
+      <point x="35.75" y="-15.5" />
+      <point x="242.20923913043475" y="271.0" />
+      <point x="302.4605978260869" y="271.0" />
+      <point x="-27.75" y="15.5" />
+    </edge>
+    <edge source="com.company.Main" target="pokemons.Azurill" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="652.0190217391304" y="350.0" />
+      <point x="430.5190217391304" y="350.0" />
+      <point x="430.5190217391304" y="186.0" />
+      <point x="433.1440217391304" y="186.0" />
+      <point x="29.5" y="15.5" />
+    </edge>
+    <edge source="pokemons.Marill" target="com.company.BubbleBeam" relationship="CREATE">
+      <point x="-27.75" y="-15.5" />
+      <point x="302.4605978260869" y="186.0" />
+      <point x="285.87499999999994" y="186.0" />
+      <point x="285.87499999999994" y="166.0" />
+      <point x="334.1440217391304" y="166.0" />
+      <point x="334.1440217391304" y="72.0" />
+      <point x="331.9605978260869" y="72.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pokemons.Azurill" target="com.company.Scald" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="403.6440217391304" y="62.0" />
+      <point x="170.46059782608688" y="62.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.Main" target="pokemons.Gourgeist" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="652.0190217391304" y="350.0" />
+      <point x="1513.3342391304348" y="350.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.Main" target="pokemons.Marill" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="652.0190217391304" y="350.0" />
+      <point x="357.9605978260869" y="350.0" />
+      <point x="27.75" y="15.5" />
+    </edge>
+    <edge source="pokemons.Marill" target="com.company.Scald" relationship="CREATE">
+      <point x="-27.75" y="-15.5" />
+      <point x="302.4605978260869" y="186.0" />
+      <point x="285.87499999999994" y="186.0" />
+      <point x="285.87499999999994" y="166.0" />
+      <point x="245.68478260869557" y="166.0" />
+      <point x="245.68478260869557" y="82.0" />
+      <point x="170.46059782608688" y="82.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pokemons.Gourgeist" target="com.company.ChargeBeam" relationship="CREATE">
+      <point x="-37.0" y="-15.5" />
+      <point x="1476.3342391304348" y="271.0" />
+      <point x="1386.7690217391305" y="271.0" />
+      <point x="1386.7690217391305" y="261.0" />
+      <point x="1288.7690217391305" y="261.0" />
+      <point x="1288.7690217391305" y="186.0" />
+      <point x="1294.0190217391305" y="186.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pokemons.Gourgeist" target="com.company.SeedBomb" relationship="CREATE">
+      <point x="-37.0" y="-15.5" />
+      <point x="1476.3342391304348" y="271.0" />
+      <point x="1386.7690217391305" y="271.0" />
+      <point x="1386.7690217391305" y="261.0" />
+      <point x="1479.5190217391305" y="261.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pokemons.Chatot" target="com.company.Facade" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="779.7690217391304" y="271.0" />
+      <point x="1038.0190217391305" y="271.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pokemons.Chatot" target="com.company.HyperVoice" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="779.7690217391304" y="271.0" />
+      <point x="873.5190217391304" y="271.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.Main" target="pokemons.Chatot" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="652.0190217391304" y="350.0" />
+      <point x="779.7690217391304" y="350.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pokemons.Azumarill" target="com.company.Refresh" relationship="CREATE">
+      <point x="-35.75" y="-15.5" />
+      <point x="170.70923913043475" y="271.0" />
+      <point x="116.51902173913038" y="271.0" />
+      <point x="116.51902173913038" y="261.0" />
+      <point x="112.05978260869551" y="261.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pokemons.Chatot" target="com.company.DoubleTeam" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="779.7690217391304" y="271.0" />
+      <point x="686.0190217391304" y="271.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.Main" target="pokemons.Pumpkaboo" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="652.0190217391304" y="350.0" />
+      <point x="1757.460597826087" y="350.0" />
+      <point x="1757.460597826087" y="271.0" />
+      <point x="1791.7690217391305" y="271.0" />
+      <point x="41.25" y="15.5" />
+    </edge>
+    <edge source="pokemons.Pumpkaboo" target="com.company.SeedBomb" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="1750.5190217391305" y="186.0" />
+      <point x="1299.2690217391305" y="186.0" />
+      <point x="1299.2690217391305" y="176.0" />
+      <point x="1479.5190217391305" y="176.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pokemons.Azumarill" target="com.company.BubbleBeam" relationship="CREATE">
+      <point x="-35.75" y="-15.5" />
+      <point x="170.70923913043475" y="271.0" />
+      <point x="116.51902173913038" y="271.0" />
+      <point x="116.51902173913038" y="261.0" />
+      <point x="36.059782608695514" y="261.0" />
+      <point x="36.059782608695514" y="72.0" />
+      <point x="331.9605978260869" y="72.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pokemons.Gourgeist" target="pokemons.Pumpkaboo" relationship="GENERALIZATION">
+      <point x="37.0" y="-15.5" />
+      <point x="1550.3342391304348" y="271.0" />
+      <point x="1709.2690217391305" y="271.0" />
+      <point x="-41.25" y="15.5" />
+    </edge>
+    <edge source="pokemons.Azumarill" target="com.company.Scald" relationship="CREATE">
+      <point x="-35.75" y="-15.5" />
+      <point x="170.70923913043475" y="271.0" />
+      <point x="116.51902173913038" y="271.0" />
+      <point x="116.51902173913038" y="261.0" />
+      <point x="0.0" y="261.0" />
+      <point x="0.0" y="82.0" />
+      <point x="170.46059782608688" y="82.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.Main" target="pokemons.Azumarill" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="652.0190217391304" y="350.0" />
+      <point x="206.45923913043475" y="350.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5544768069039914" showDependencies="true" x="917.0" y="203.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -7,6 +7,6 @@ public class Chatot extends Pokemon {
         super(name, level);
         setStats(76, 65, 45, 92, 42, 91);
         setType(Type.NORMAL, Type.FLYING);
-        setMove(new RazorLeaf());
+        setMove(new Swagger(), new DoubleTeam(), new Facade(), new HyperVoice());
     }
 }
